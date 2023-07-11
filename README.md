@@ -40,11 +40,12 @@ The main.ipynb notebook enables you to process multiple receipts stored in a fol
    # Init a new client
    mindee_client = Client(api_key="your_api_key")
 3. Create a folder and place the receipt images you want to process inside it.
-/Receipts
-    ├── receipt1.jpg
-    ├── receipt2.jpg
-    ├── receipt3.jpg
-    └── ...
+    ```python
+    /Receipts
+        ├── receipt1.jpg
+        ├── receipt2.jpg
+        ├── receipt3.jpg
+        └── ...
 4. Update the folder_path variable in the notebook with the path to the folder containing the receipt images.
   
     # Folder path containing the receipts
