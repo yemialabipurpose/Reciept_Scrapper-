@@ -36,8 +36,7 @@ The main.ipynb notebook enables you to process multiple receipts stored in a fol
 
 2. Obtain your Mindee API key and update the api_key variable in the notebook with your API key.
 
-
- ```python
+   ```python
    # Init a new client
    mindee_client = Client(api_key="your_api_key")
 3. Create a folder and place the receipt images you want to process inside it.
